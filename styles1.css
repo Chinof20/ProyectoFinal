@@ -448,6 +448,3 @@ input[type=checkbox]:checked+label:before {
   }
 
 }
-
-
-@media screen and (max-width: 450px) {}
