@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagenes/Logo-iconoArigato.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="styles1.css">
+    <title>Arigato</title>
+</head>
+
+<body>
+
+    <section id="seccion-1">
+        <header id="header">
+            <nav>
+                <ul id="barra">
+                    <li>
+                        <a href="#seccion-1" class="title1">INICIO</a>
+                        <a href="#seccion-2" class="title1">PRODUCTOS</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <div id="principal">
+            <div class="logo">
+                <img class="img" src="./imagenes/arigato_2023.png" alt="Logo Arigato">
+            </div>
+            <div class="nombre">
+                <h1 class="title">Bienvenidos a Arigato</h1>
+            </div>
+        </div>
+        <footer id="footer">
+            <strong>Seguinos en nuestras redes sociales</strong>
+            <div>
+                <iconify-icon icon="uil:instagram-alt" style="color: #1D1C20;" class="icon"></iconify-icon>
+                <iconify-icon icon="ant-design:twitter-circle-filled" style="color: #1D1C20;"
+                    class="icon"></iconify-icon>
+                <iconify-icon icon="ri:whatsapp-line" style="color: #1D1C20;" class="icon"></iconify-icon>
+            </div>
+        </footer>
+
+    </section>
+
+
+    <section id="seccion-2">
+        <header id="header">
+            <nav>
+                <ul id="barra">
+                    <li>
+                        <a href="#seccion-1" class="title1">INICIO</a>
+                        <a href="#seccion-2" class="title1">PRODUCTOS</a>
+                    </li>
+
+                    <li>
+                        <button id="abrirCarrito">
+                            <iconify-icon icon="mdi:cart" style="color: #070707;" class="icon"></iconify-icon>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <div id="checks">
+            <div>
+                <input class="checks" type="checkbox" name="plato" id="arroz">
+                <label for="arroz">Arroz</label>
+            </div>
+
+            <div>
+                <input class="checks" type="checkbox" name="plato" id="fideos">
+                <label for="fideos">Fideos</label>
+            </div>
+
+            <div>
+                <input class="checks" type="checkbox" name="plato" id="sopas">
+                <label for="sopas">Sopas</label>
+            </div>
+
+            <div>
+                <input class="checks" type="checkbox" name="plato" id="ensaladas">
+                <label for="ensaladas">Ensaladas</label>
+            </div>
+
+            <div>
+                <input class="checks" type="checkbox" name="plato" id="especiales">
+                <label for="especiales">Especiales</label>
+            </div>
+        </div>
+
+        <div id="contenedor-productos" class="container">
+            <!-- Estamos creando un div acá con los cards
+            con una clase llamada "cards"
+        -->
+        </div>
+
+        <div class="contenedorDelCarrito">
+            <div class="contenedorCarritoHijo">
+                <h4>Carrito</h4>
+                <table>
+                    <tr id=tabla>
+                        <th>Producto</th>
+                        <th>Precio/Unidad</th>
+                        <th>Cantidad</th>
+                        <th>Acción</th>
+
+                    </tr>
+                </table>
+
+                <button id="cerrarCarrito">
+                    <iconify-icon icon="ph:x-bold"></iconify-icon>
+                </button>
+                <div id="contenedor-carrito">
+                </div>
+
+                <p class="precio">Precio total: $<span id="precioTotal">0</span></p>
+                <div class="ordenbotones">
+                    <button class="button" id=comprar>Finalizar Compra</button>
+                    <button class="button" id="limpiar-carrito">Vaciar carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <strong>Seguinos en nuestras redes sociales</strong>
+            <div>
+                <iconify-icon icon="uil:instagram-alt" style="color: #1D1C20;" class="icon"></iconify-icon>
+                <iconify-icon icon="ant-design:twitter-circle-filled" style="color: #1D1C20;"
+                    class="icon"></iconify-icon>
+                <iconify-icon icon="ri:whatsapp-line" style="color: #1D1C20;" class="icon"></iconify-icon>
+            </div>
+        </footer>
+
+    </section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+    <script src="./modal.js"></script>
+    <script src="./scriptf.js"></script>
+</body>
+
+</html>

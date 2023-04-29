@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "Arroz Chow Fan",
+    "categoria": "arroz",
+    "cantidad": 1,
+    "descripcion": "Arroz salteado, pollo y huevo",
+    "precio": 10,
+    "img": "./imagenes/chaufan2023.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Aeropuerto",
+    "categoria": "arroz",
+    "cantidad": 1,
+    "descripcion": "Arroz salteado, pollo, huevo y verduras",
+    "precio": 15,
+    "img": "./imagenes/aeropuerto.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Chancho Asado",
+    "categoria": "especiales",
+    "cantidad": 1,
+    "descripcion": "Trozos de chancho asados a la sartén",
+    "precio": 25,
+    "img": "./imagenes/ChanchoAsado.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Chancho Cruyoc",
+    "categoria": "especiales",
+    "cantidad": 1,
+    "descripcion": "Trozos de chancho agridulces con verduras",
+    "precio": 27,
+    "img": "./imagenes/chanchoCruyoc.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Chancho Kintu",
+    "categoria": "especiales",
+    "cantidad": 1,
+    "descripcion": "Trozos de chancho (costillas) agridulces",
+    "precio": 30,
+    "img": "./imagenes/chanchoKintu.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Chi Jau Kay",
+    "categoria": "especiales",
+    "cantidad": 1,
+    "descripcion": "Pollo con salsa mensi (salado)",
+    "precio": 30,
+    "img": "./imagenes/chijaukay.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Fideo Saltados",
+    "categoria": "fideos",
+    "cantidad": 1,
+    "descripcion": "Fideos saltados con verduras y carne",
+    "precio": 20,
+    "img": "./imagenes/fideos2023.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Kam Lu Wantan",
+    "categoria": "especiales",
+    "cantidad": 1,
+    "descripcion": "Pollo agridulce con semillas de sésamo",
+    "precio": 28,
+    "img": "./imagenes/especial2023.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Ensalada Fansi",
+    "categoria": "ensaladas",
+    "cantidad": 1,
+    "descripcion": "Verduras mixeadas con semillas de sésamo",
+    "precio": 20,
+    "img": "./imagenes/ensalada_Fansi.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Pollo con Verduras",
+    "categoria": "especiales",
+    "cantidad": 1,
+    "descripcion": "Pollo salsa de ostras y verduras",
+    "precio": 22,
+    "img": "./imagenes/pollocverdura.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Saho Fan",
+    "categoria": "fideos",
+    "cantidad": 1,
+    "descripcion": "Seco de carne con fideos cuadrados",
+    "precio": 24,
+    "img": "./imagenes/sahofan.png"
+  },
+  {
+    "id": 12,
+    "nombre": "Sopa FuchiFu",
+    "categoria": "sopas",
+    "cantidad": 1,
+    "descripcion": "Caldo de pollo con fideos chinos y jengibre",
+    "precio": 22,
+    "img": "./imagenes/SopaFuchifu.png"
+  }
+]
